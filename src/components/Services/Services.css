@@ -15,7 +15,7 @@
 font-size: 1.2rem;
 }
 #services h2{
-    font-size: 2.5rem;
+    font-size: 2rem;
     }
 .service:hover{
     background: transparent;
@@ -24,24 +24,25 @@ font-size: 1.2rem;
 }
 .service__head{
     background: var(--color-primary);
-    padding: 2rem;
+    padding: 1.2rem;
     border-radius: 0 0 2rem 2rem;
     box-sizing: 0 2rem 1rem rgba(0,0,0,0.1);
     
 }
 .service__head h3{
     color: var(--color-bg);
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     text-align: center;
 }
 .service__list{
-    padding:2rem;
+    padding:1rem;
 
 }
 .service__list li{
     display: flex;
     gap: 1rem;
     margin-bottom: 0.8rem;
+    
 
 }
 
@@ -50,7 +51,7 @@ font-size: 1.2rem;
     margin-top:2px ;
 }
 .service__list p{
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 
 

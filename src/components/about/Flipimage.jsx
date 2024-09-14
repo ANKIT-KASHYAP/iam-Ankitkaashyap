@@ -8,14 +8,14 @@ import { FaGithub } from 'react-icons/fa';
 const Flipimage = () => {
   return (
     <>
- <div class="wrapper">
-      <div class="card front-face">
+ <div className="wrapper">
+      <div className="card front-face">
         <img src={ME} alt='myimage' />
       </div>
-      <div class="card back-face">
+      <div className="card back-face">
         <img src={ME} alt='myimage' />
-        <div class="info">
-          <div class="title">Ankit Kashyap</div>
+        <div className="info">
+          <div className="title">Ankit Kashyap</div>
           <p>Web Developer <br />front-end developer</p>
         </div>
         <ul>

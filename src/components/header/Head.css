@@ -10,6 +10,7 @@ header {
 }
 .header_container h3,h1 {
   color: #ff7f50;
+  font-size: 1.5rem;
 }
 
 
@@ -21,7 +22,7 @@ header {
   justify-content: center;
 }
 .cta a{
-  font-size: 1.7rem;
+  font-size: 0.9rem;
 }
 /*===================HEADRE SOCISLS=================*/
 
@@ -35,7 +36,7 @@ header {
   bottom: 3rem;
 }
 .header__socials a{
-  font-size: 2rem;
+  font-size: 1.3rem;
 }
 
 .header__socials::after {
@@ -47,11 +48,11 @@ header {
 /*===================ME=================*/
 .me {
   background: linear-gradient(var(--color-primary), transparent);
-  width: 26rem;
-  height: 29rem;
+  width: 18rem;
+  height: 15rem;
   position: absolute;
-  left: calc(50% - 12rem);
-  margin-top: 4rem;
+  left: calc(50% - 8.5rem);
+  margin-top: 1.5rem;
   border-radius: 13rem 13rem 0 0;
   overflow: hidden;
   padding: 0.8rem 7rem 0.5rem 0.5rem;
@@ -59,7 +60,7 @@ header {
 }
 .me img{
 position: relative;
-margin-left: -130px;
+margin-left: -50px;
 margin-top: -100px;
 
 }
@@ -70,7 +71,7 @@ margin-top: -100px;
   bottom: 5rem;
   transform: rotate(90deg);
   font-weight: 300;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 
 /*=================media queries for (Medium devices)=============*/
@@ -86,7 +87,7 @@ margin-top: -100px;
     height: 100vh;
   }
   .header__socials,
-  .scroll__down {
+  .scroll_down {
     display: none;
   }
 }
